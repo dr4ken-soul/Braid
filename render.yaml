@@ -1,19 +1,17 @@
 services:
-  - name: braid-api
-    owner: dr4ken-soul
+  - type: web
+    name: braid-api
+    env: node
     region: oregon
     plan: free
-    runtime: node
-    buildCommand: npm install && npm run build --workspace=@braid/api 2>/dev/null || npm install
-    startCommand: node_modules/.bin/tsx src/server.ts
+    buildCommand: npm install
+    startCommand: npm start
     healthCheckPath: /api/health
     envVars:
       - key: NODE_ENV
         value: production
       - key: API_PORT
         value: 10000
-      - key: PORT
-        sync: false
       - key: BRAID_WEBHOOK_SECRET
         sync: false
       - key: SESSION_SIGNING_SECRET
