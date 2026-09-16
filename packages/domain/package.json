@@ -1,0 +1,15 @@
+{
+  "name": "@braid/domain",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Braid shared domain types and constants",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  }
+}

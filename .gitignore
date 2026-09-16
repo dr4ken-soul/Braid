@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+.next/
+dist/
+build/
+out/
+
+# Test output
+coverage/
+
+# Environment. Never commit real values.
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+*.log
+
+# Editor and OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.tsbuildinfo
+.turbo/
+
+# Deployment
+.vercel/
+
+# Agent build specs (internal, not part of the submission)
+.agent-specs/
