@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "path": "apps/web",
+      "path": ".",
       "scope": "psycho-projects",
       "team": "psycho-projects",
       "settings": {
