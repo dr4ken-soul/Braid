@@ -61,7 +61,7 @@ npm run dev:web
 
 ### Live
 
-- Web: https://quorum-agent.vercel.app
+- Web: https://braid-chi.vercel.app
 - API: https://braid-api-gdnk.onrender.com
 - Health: https://braid-api-gdnk.onrender.com/api/health
 - Webhook: https://braid-api-gdnk.onrender.com/api/webhooks/elevenlabs
@@ -70,7 +70,7 @@ On boot the API reports: `Braid API ready on port 4000 with 6 synthetic cases an
 
 ## Routes
 
-Web (live at https://quorum-agent.vercel.app):
+Web (live at https://braid-chi.vercel.app):
 
 | Route | Purpose |
 | --- | --- |

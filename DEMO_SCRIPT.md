@@ -5,7 +5,7 @@ Audience: Future of Voice AI Challenge judges
 Data: synthetic claimant, policy, and repair records only
 
 Live demo:
-- Web: https://quorum-agent.vercel.app
+- Web: https://braid-chi.vercel.app
 - API: https://braid-api-gdnk.onrender.com
 - Health: https://braid-api-gdnk.onrender.com/api/health
 

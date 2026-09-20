@@ -24,15 +24,15 @@ Legend: [x] complete in this repository. [ ] pending owner or operator input. Ev
 - [x] What works by October 14 is accurate (IDEA_CANVAS_DRAFT.md box O)
 - [ ] Team history is completed (owner pending)
 - [x] Working product, repository, or demo link is present
-  - Web: https://quorum-agent.vercel.app
+  - Web: https://braid-chi.vercel.app
   - API: https://braid-api-gdnk.onrender.com
   - Health: https://braid-api-gdnk.onrender.com/api/health
 - [x] 60-second architecture walkthrough link is present (see docs/architecture.md)
-- [x] Hosted agent works on Render (https://braid-api-gdnk.onrender.com) and web on Vercel (https://quorum-agent.vercel.app)
+- [x] Hosted agent works on Render (https://braid-api-gdnk.onrender.com) and web on Vercel (https://braid-chi.vercel.app)
 
 ## Stage 2 build
 
-- [x] Hosted or callable agent works (live on Render at https://braid-api-gdnk.onrender.com; scripted flows run in the web console)
+- [x] Hosted or callable agent works (live on Render at https://braid-api-gdnk.onrender.com, web on Vercel at https://braid-chi.vercel.app; scripted flows run in the web console)
 - [x] English path works (apps/api/src/seed/call-scripts.ts, docs/transcripts/main-call-transcript.md)
 - [x] Arabic path works (docs/transcripts/arabic-call-transcript.md)
 - [x] AI disclosure is audible (disclosure text recorded in every transcript; AI disclosure is the first node in every script)
