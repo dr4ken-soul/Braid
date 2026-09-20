@@ -33,3 +33,5 @@ Thumbs.db
 
 # Agent build specs (internal, not part of the submission)
 .agent-specs/
+.vercel
+.env*

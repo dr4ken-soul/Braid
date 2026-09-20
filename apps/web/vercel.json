@@ -1,6 +1,6 @@
 {
   "framework": null,
-  "buildCommand": "pnpm run build",
-  "installCommand": "pnpm install",
-  "outputDirectory": ".next"
+  "buildCommand": "npm run build",
+  "installCommand": "npm install --workspaces",
+  "outputDirectory": "apps/web/.next"
 }
