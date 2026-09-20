@@ -4,6 +4,11 @@ Target duration: 2 minutes 30 seconds
 Audience: Future of Voice AI Challenge judges
 Data: synthetic claimant, policy, and repair records only
 
+Live demo:
+- Web: https://quorum-agent.vercel.app
+- API: https://braid-api-gdnk.onrender.com
+- Health: https://braid-api-gdnk.onrender.com/api/health
+
 ## 0:00 to 0:15, the problem
 
 Screen: Braid split-screen hero.

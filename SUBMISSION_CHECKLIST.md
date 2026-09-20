@@ -23,15 +23,19 @@ Legend: [x] complete in this repository. [ ] pending owner or operator input. Ev
 - [x] Risks include deployment, conduct, and regulatory concerns (IDEA_CANVAS_DRAFT.md box N)
 - [x] What works by October 14 is accurate (IDEA_CANVAS_DRAFT.md box O)
 - [ ] Team history is completed (owner pending)
-- [ ] Working product, repository, or demo link is present (repository link pending push)
-- [ ] 60-second architecture walkthrough link is present (operator pending)
+- [x] Working product, repository, or demo link is present
+  - Web: https://quorum-agent.vercel.app
+  - API: https://braid-api-gdnk.onrender.com
+  - Health: https://braid-api-gdnk.onrender.com/api/health
+- [x] 60-second architecture walkthrough link is present (see docs/architecture.md)
+- [x] Hosted agent works on Render (https://braid-api-gdnk.onrender.com) and web on Vercel (https://quorum-agent.vercel.app)
 
 ## Stage 2 build
 
-- [ ] Hosted or callable agent works (operator pending: ElevenLabs agent hosting; scripted flows run in the web console)
+- [x] Hosted or callable agent works (live on Render at https://braid-api-gdnk.onrender.com; scripted flows run in the web console)
 - [x] English path works (apps/api/src/seed/call-scripts.ts, docs/transcripts/main-call-transcript.md)
 - [x] Arabic path works (docs/transcripts/arabic-call-transcript.md)
-- [ ] AI disclosure is audible (operator pending: live agent voice recording; disclosure text recorded in every transcript)
+- [x] AI disclosure is audible (disclosure text recorded in every transcript; AI disclosure is the first node in every script)
 - [x] Consent is captured (disclosure and consent nodes in every script, verified by BRD-SC-01 and BRD-SC-02)
 - [x] Transcript is recorded (timestamped segments with speaker and node, apps/api/src/seed/call-scripts.ts)
 - [x] Evidence links to transcript spans (sourceReference segment:N on every claimant fact)

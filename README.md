@@ -45,9 +45,11 @@ Optional environment variables (see `.env.example`):
 | `REVIEWER_TOKEN` | When set, GET /api/evaluations requires it | unset (evaluations open in demo mode) |
 | `CLAIMS_SANDBOX_AVAILABLE` | Set to `false` to demonstrate the dependency failure path live | `true` |
 | `DATABASE_URL` | Postgres connection for persistence; empty uses the in-memory store | in-memory |
-| `NEXT_PUBLIC_API_URL` | API base URL for the web app | `http://localhost:4000` |
+| `NEXT_PUBLIC_API_URL` | API base URL for the web app | `http://localhost:4000` (live: `https://braid-api-gdnk.onrender.com`) |
 
 ## Run
+
+### Local development
 
 ```bash
 # Terminal 1: API on http://localhost:4000
@@ -57,11 +59,18 @@ npm run dev:api
 npm run dev:web
 ```
 
+### Live
+
+- Web: https://quorum-agent.vercel.app
+- API: https://braid-api-gdnk.onrender.com
+- Health: https://braid-api-gdnk.onrender.com/api/health
+- Webhook: https://braid-api-gdnk.onrender.com/api/webhooks/elevenlabs
+
 On boot the API reports: `Braid API ready on port 4000 with 6 synthetic cases and 10 evaluation scenarios`.
 
 ## Routes
 
-Web (port 3000):
+Web (live at https://quorum-agent.vercel.app):
 
 | Route | Purpose |
 | --- | --- |
@@ -71,7 +80,7 @@ Web (port 3000):
 | `/cases/[caseId]` | Full case review: transcript, evidence, source records, contradictions, tool calls, handoff |
 | `/evaluations` | Agent Testing scenarios, per-run outcomes, and aggregate pass rate |
 
-API (port 4000):
+API (live at https://braid-api-gdnk.onrender.com):
 
 | Route | Method | Purpose |
 | --- | --- | --- |
